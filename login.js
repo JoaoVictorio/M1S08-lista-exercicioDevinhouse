@@ -1,7 +1,7 @@
-const usuarios = require('./dados');
+const usuarios = require('dados');
 
 function validarLogin(event) {
-  event.preventDefault(); 
+  event.preventDefault();
 
   const email = document.getElementById('email').value;
   const senha = document.getElementById('senha').value;

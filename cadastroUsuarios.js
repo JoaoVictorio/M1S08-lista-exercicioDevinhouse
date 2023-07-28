@@ -1,7 +1,7 @@
-const usuarios = require('./dados');
+const usuarios = require('dados');
 
 function cadastroUsuario(event) {
-  event.preventDefault(); 
+  event.preventDefault();
 
   const nome = document.getElementById('nome').value;
   const email = document.getElementById('email').value;
@@ -20,7 +20,7 @@ function cadastroUsuario(event) {
 
     alert('Cadastro realizado com sucesso! Você será redirecionado para a página de login.');
 
-    window.location.href = 'login.html';
+    window.location.href = 'index.html';
   }
 }
 
